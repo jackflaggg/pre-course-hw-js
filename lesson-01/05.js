@@ -8,4 +8,5 @@ switch (rule) {
         break;
     case rule.length === 25:
         console.log("50 на 50");
+        break;
 }
