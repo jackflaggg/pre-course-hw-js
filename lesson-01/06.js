@@ -1,3 +1,3 @@
 let str = "zzzzyzz";
-let poiskPerem = str.includes('y');
-poiskPerem ? console.log('нашел') : console.log('заблудился');
+let result = str.includes('y') ? "нашел" : "заблудился";
+console.log(result);
