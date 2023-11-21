@@ -1,10 +1,9 @@
-let passport = {
-    name: "Petr",
-    surname: "Petrov",
-};
+const giveMeRightCondition = (value1, value2, maximum) => {
+    if (value1 === value2 && value1 <=  maximum) {
+        console.log('Success!');
+    } else {
+        console.log('Something wrong!');
+    }
+}
 
-let copyPasport = Object.assign(passport);
-copyPasport.name = 'Ivan';
-
-console.log(passport.name);
-console.log(copyPasport.name);
+giveMeRightCondition(110, 100, 200);
