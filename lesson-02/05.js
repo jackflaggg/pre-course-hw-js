@@ -6,5 +6,5 @@ let passport = {
 let copyPasport = Object.assign(passport);
 copyPasport.name = 'Ivan';
 
-console.log(passport.name);
-console.log(copyPasport.name);
+console.log(passport);
+console.log(copyPasport);
