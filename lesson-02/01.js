@@ -1,2 +1,2 @@
 // code
-let doArrow = valut => console.log(value);
+let doArrow = value => console.log(value);
