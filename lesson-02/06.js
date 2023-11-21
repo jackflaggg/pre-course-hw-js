@@ -11,5 +11,5 @@ let waterPassportWithAddress = structuredClone(passportWithAddress);
 
 waterPassportWithAddress.address.city = 'Bobryisk';
 
-console.log(passportWithAddress);
-console.log(waterPassportWithAddress);
+console.log(passportWithAddress.address.city);
+console.log(waterPassportWithAddress.address.city);
