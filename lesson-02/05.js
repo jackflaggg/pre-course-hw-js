@@ -2,7 +2,8 @@ let passport = {
     name: "Petr",
     surname: "Petrov",
 };
+let passportWithNameIvan = {...passport,
+    name: "Ivan",
+};
 console.log(passport.name);
-
-let copyPassport = {...passport, name: "Ivan"};
-console.log(copyPassport.name);
+console.log(passportWithNameIvan.name);
