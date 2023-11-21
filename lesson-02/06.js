@@ -7,9 +7,8 @@ let passportWithAddress = {
     }
 };
 
-let waterPassportWithAddress = structuredClone(passportWithAddress);
-
-waterPassportWithAddress.address.city = 'Bobryisk';
+let passportWithAddress2={...passportWithAddress,address:{...passportWithAddress.address}}
+passportWithAddress2.address.city="Bobryisk"
 
 console.log(passportWithAddress.address.city);
-console.log(waterPassportWithAddress.address.city);
+console.log(passportWithAddress2.address.city);
