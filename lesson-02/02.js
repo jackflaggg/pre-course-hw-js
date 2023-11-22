@@ -8,3 +8,9 @@ function factorial(n) {
 }
 console.log(factorial(4));
 
+let human = {
+    name: 'Rasul',
+};
+
+console.log(human.age);
+
