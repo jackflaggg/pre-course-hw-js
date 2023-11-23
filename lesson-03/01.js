@@ -2,5 +2,5 @@ const colors = ["синий", "черный", "зеленый", "красный"
 function createColorString() {
     return colors.filter(element => element === "черный" || element === "красный" || element === "желтый").join('-');
 }
-console.log(createColorString());
+console.log(createColorString())
 
